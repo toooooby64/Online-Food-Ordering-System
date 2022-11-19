@@ -1,19 +1,17 @@
 package theSpot.Model;
 
-public class Entree {
+public class MenuItem {
 	private int id; 
 	private String name;
 	private String description;
 	private double price;
 	
-	
-	
-	public Entree(String name, String description, double price) {
+	public MenuItem(String name, String description, double price) {
 		this.name = name;
 		this.description = description;
 		this.price = price;
 	}
-	public Entree() {
+	public MenuItem() {
 
 	}
 	
@@ -43,9 +41,7 @@ public class Entree {
 	}
 	@Override
 	public String toString() {
-		return "Entree [id=" + id + ", name=" + name + ", description=" + description + ", price=" + price + "]";
+		return "Menu Item [id=" + id + ", name=" + name + ", description=" + description + ", price=" + price + "]";
 	}
 
-	
-	
 }

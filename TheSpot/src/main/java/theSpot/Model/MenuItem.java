@@ -5,7 +5,7 @@ public class MenuItem {
 	private String name;
 	private String description;
 	private double price;
-	
+	private String image;
 	public MenuItem(String name, String description, double price) {
 		this.name = name;
 		this.description = description;
@@ -39,9 +39,16 @@ public class MenuItem {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
+	}
 	@Override
 	public String toString() {
 		return "Menu Item [id=" + id + ", name=" + name + ", description=" + description + ", price=" + price + "]";
 	}
+
 
 }

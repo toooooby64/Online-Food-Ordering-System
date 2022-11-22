@@ -49,6 +49,7 @@ public class TheSpotDAO implements PostgresDAO{
 			item.setName(rs.getString(2));
 			item.setDescription(rs.getString(3));
 			item.setPrice(rs.getDouble(4));
+			item.setImage(rs.getString(5));
 			
 			items.add(item);
 		}

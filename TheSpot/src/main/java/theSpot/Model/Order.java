@@ -51,6 +51,7 @@ public class Order {
 	public void setItemsInCart(HashMap<Integer,Integer> itemsInCart) {
 		this.itemsInCart = itemsInCart;
 	}
+	
 	@Override
 	public String toString() {
 		return "Order [id=" + id + ", userID=" + userID + ", status=" + status + ", createdAt=" + createdAt

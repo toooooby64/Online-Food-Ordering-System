@@ -44,7 +44,7 @@
 	  
 	  
 			<div class="card h-100" style="width: 19rem;">
-			  <img src="https://www.seriouseats.com/thmb/aEYbrnuKQ3Ge7T5sd3A0BWQGPLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210607-CLASSICSMASHEDBURGS-JANJIGIAN-seriouseats-10-8af40a4a1698459c99e7f3c0df7f6a0f.jpg" class="card-img-top" alt="${menuItems.name}" width="500" height="300">
+			  <img src="${menuItems.image}" class="card-img-top" alt="${menuItems.name}" width="500" height="300">
 			  <div class="card-body">
 			    <h3 class="card-title">${menuItems.name}</h3>
 			    <p class="card-text"><b>$${menuItems.price}</b><br>${menuItems.description}</p>

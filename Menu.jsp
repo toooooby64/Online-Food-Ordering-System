@@ -10,22 +10,29 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<div class="container-fluid">
-	  <a class="navbar-brand" href="#">Menu</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Link</a>
-	      </li>
-	      
-	    </ul>
-	  </div>
-	</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-info" href="MenuController">Skip Line</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="MenuController">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <a class="nav-link" href="#"><button class="btn btn-success" type="submit">Cart</button></a>
+      </div>
+    </div>
+  </div>
 </nav>
 
 <div class="container">
@@ -33,23 +40,25 @@
 	
 	<c:forEach items="${menuItems}" var="menuItems">
 	  
-	  <div class="col-4" style="padding: 20px">
+	  <div class="col-lg-4 col-md-6 col-sm-12" style="padding: 20px">
 	  
 	  
-			<div class="card" style="width: 18rem;">
-			  <img src="https://www.seriouseats.com/thmb/aEYbrnuKQ3Ge7T5sd3A0BWQGPLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210607-CLASSICSMASHEDBURGS-JANJIGIAN-seriouseats-10-8af40a4a1698459c99e7f3c0df7f6a0f.jpg" class="card-img-top" alt="${menuItems.name}">
+			<div class="card h-100" style="width: 19rem;">
+			  <img src="https://www.seriouseats.com/thmb/aEYbrnuKQ3Ge7T5sd3A0BWQGPLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210607-CLASSICSMASHEDBURGS-JANJIGIAN-seriouseats-10-8af40a4a1698459c99e7f3c0df7f6a0f.jpg" class="card-img-top" alt="${menuItems.name}" width="500" height="300">
 			  <div class="card-body">
-			    <h5 class="card-title">${menuItems.name}</h5>
+			    <h3 class="card-title">${menuItems.name}</h3>
 			    <p class="card-text"><b>$${menuItems.price}</b><br>${menuItems.description}</p>
+			    </div>
 			    
 			    <form method="post" action="MenuController">
 			    <input type="hidden" name="menuName" value="${menuItems.name}">
 			    <input type="hidden" name="menuDescription" value="${menuItems.description}">
 			    <input type="hidden" name="menuPrice" value="${menuItems.price}">
-			  	<button type="submit" class="btn btn-primary">Add to Cart</button>
+			    <div class="d-grid gap-2 col-6 mx-auto">
+			  		<button type="submit" class="btn btn-primary">Add to Cart</button>
+			  	</div>
 			    </form>
 			    
-			  </div>
 			</div>	
 	    </div>
 	</c:forEach>

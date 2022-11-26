@@ -50,7 +50,7 @@
 			</c:if>
 		</div>
 		<c:if test="${size >= 1}">
-				<p class="mb-0 text-end"><span style="padding-right:35px">QTY</span><span style="padding-right:70px">Price</span></p>
+				<p class="mb-0 text-end"><span style="padding-right:35px">QTY</span><span style="padding-right:95px">Price</span></p>
 		</c:if>
 	<c:forEach items="${order}" var="order">
 		<div class="card mb-3">

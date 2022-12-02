@@ -7,14 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Us</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- <link rel = 'stylesheet' type = "text/css" href = "style.cc"> -->
 
 
 </head>
 <body>
-
 
 
 
@@ -42,13 +41,12 @@
                 <a class="nav-link" href="LoginPage">Login</a>
               </li>
             </ul>
+          </div>
             <div class="d-flex">
               <a class="nav-link" href="Cart"><button class="btn btn-success" type="submit" style = "border-color: #ffca3d; background-color: #ffca3d; color: #020c53">Cart</button></a>
             </div>
-          </div>
         </div>
  </nav> 
-
 
       <!-- have this to space the navbar and contact us -->
       <br>
@@ -59,15 +57,12 @@
         
 <!-- Scuffed way to center the contact us  -->
 <div class = "container" >
-    <!-- <div class = "row" >
-        <div class = "col-10">
-            <h2></h2>
-        </div> -->
+
 
         <div class = "row" >
             <div class = "col-md-8 mx-auto" style="min-height:175px">
                 <p style ="font-size:40px" class = "text-center"><b>CONTACT US</p></b>
-                <!-- <P> Feel free to drop us a line via this contact form. We do our best to help all requests within a couple hours.</P> -->
+
                 <p>Questions? Send us a messages and we will get back to you as soon as possible within a couple hours!</p>
             </div>
 
@@ -86,7 +81,7 @@
             <h3><b> ADDRESS</b></h3>
 
             <a href="https://www.google.com/maps/place/Tacos+Los+3+Reyes/@37.3660345,-121.900987,17z/data=!4m13!1m7!3m6!1s0x808fcc7aae21f493:0x1eb55626a6cf59a4!2s1212+Old+Oakland+Rd,+San+Jose,+CA+95112!3b1!8m2!3d37.3672411!4d-121.8908804!3m4!1s0x808fcb8bd177094f:0x9b903880a9bbe240!8m2!3d37.3686354!4d-121.9048299">1212 Oakland Rd<br>San Jose, California(CA), 95112</a>
-            <p>Come and join us at our resturaunt</p>
+            <p>Come and join us at our restaurant</p>
         </div>
         <div class = "col-sm" style="min-height:200px">
             <div class = "icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
@@ -94,7 +89,7 @@
               </svg></i></div>
             <div class = "text"></div>
             <h3><b> EMAIL</h3></b>
-            <a href="mailto:cramirez0337@gmail.com">cramirez0337@gmail.com</a>
+            <a href="mailto:cramirez0337@gmail.com">theSpot@gmail.com</a>
             <p>Speak to Customer service</p>
         </div>
         <div class = "col-sm" style="min-height:200px">
@@ -103,7 +98,7 @@
               </svg></div>
             <div class = "text"></div>
             <h3><b> PHONE</h3></b>
-            <a href="tel:323-392-7375">(408) 436-1193</a>
+            <a href="tel:323-392-7375">(555) 436-1193</a>
             <p>Call and Order</p>
         </div>
     </div>
@@ -112,7 +107,8 @@
 <br>
 
     <div class ="contactForm">
-        <form action="https://formspree.io/f/mgeqbvbo" method="POST">
+        <form action="https://formspree.io/f/mgeqbvbo"
+  method="POST">
         
             <h2 class="text-center"> Get In Touch!</h2>
             <section class="page-section" id="contact">
@@ -162,18 +158,10 @@
                                   
                                   <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                               </div>
-                              <!-- Submit success message-->
-                              <!---->
-                              <!-- This is what your users will see when the form-->
-                              <!-- has successfully submitted-->
 
-                              <!-- Submit error message-->
-                              <!---->
-                              <!-- This is what your users will see when there is-->
-                              <!-- an error submitting the form-->
                               <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                               <!-- Submit Button-->
-                              <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button></div>
+                              <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit" style = "border-color: #ffca3d; background-color: #ffca3d; color: #020c53">Send</button></div>
                           </form>
                       </div>
                   </div>
@@ -232,7 +220,7 @@
                 <h5 class="text-uppercase">Sign Up</h5>
                 
                    <div class="container d-flex align-items-center justify-content-center">
-                   <a href="LoginIn" >
+                   <a href="LoginPage" >
 					<svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-emoji-sunglasses" viewBox="0 0 16 16">
  					 <path d="M4.968 9.75a.5.5 0 1 0-.866.5A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75zM7 5.116V5a1 1 0 0 0-1-1H3.28a1 1 0 0 0-.97 1.243l.311 1.242A2 2 0 0 0 4.561 8H5a2 2 0 0 0 1.994-1.839A2.99 2.99 0 0 1 8 6c.393 0 .74.064 1.006.161A2 2 0 0 0 11 8h.438a2 2 0 0 0 1.94-1.515l.311-1.242A1 1 0 0 0 12.72 4H10a1 1 0 0 0-1 1v.116A4.22 4.22 0 0 0 8 5c-.35 0-.69.04-1 .116z"/>
   					<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-1 0A7 7 0 1 0 1 8a7 7 0 0 0 14 0z"/>
@@ -246,10 +234,6 @@
           </div>
         </div>
         </footer>
-	<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-			crossorigin="anonymous">
-	</script>
+
 </body>
 </html>

@@ -19,6 +19,6 @@ Responsible for View Cart Page and Jira setup
 The Spot is a FAKE restaurant who is struggling to increase their sales due to long wait times, and they have asked us to create a website where customers can order food to streamline the ordering process.
 
 
-##Google Slides
+## Google Slides
 https://docs.google.com/presentation/d/1zhUMOy-7zgohOYMujCQn5nlvq4hpCmtxMp95d98PW0w/edit?usp=sharing
 

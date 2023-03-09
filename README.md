@@ -2,7 +2,7 @@
 Group Project for Cal State LA's CS3337 course (Software Engineering)
 
 # Group Members
-Jason Alvarez
+**ason Alvarez**
 
 Responsible for Database creation, Paypal integration and Integration of all pages
 
@@ -10,15 +10,15 @@ Responsible for Database creation, Paypal integration and Integration of all pag
 
 Responsible for the Menu Page and Nav Bar
 
-**Carlos Ramirez
+**Carlos Ramirez**
 
 Responsible for the Contact Us page and About Us page
 
-**Alvin Yu
+**Alvin Yu**
 
 Responsible for Login Page and Create Account Page
 
-**Alberto Gonzalez
+**Alberto Gonzalez**
 
 Responsible for View Cart Page and Jira setup
 

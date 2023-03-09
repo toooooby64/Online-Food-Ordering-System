@@ -28,5 +28,6 @@ The Spot is a FAKE restaurant who is struggling to increase their sales due to l
 
 ## Google Slides
 Our google slides describing our project.
+
 https://docs.google.com/presentation/d/1zhUMOy-7zgohOYMujCQn5nlvq4hpCmtxMp95d98PW0w/edit?usp=sharing
 

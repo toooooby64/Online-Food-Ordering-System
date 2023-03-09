@@ -2,7 +2,7 @@
 Group Project for Cal State LA's CS3337 course (Software Engineering)
 
 # Group Members
-**ason Alvarez**
+**Jason Alvarez**
 
 Responsible for Database creation, Paypal integration and Integration of all pages
 

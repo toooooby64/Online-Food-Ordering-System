@@ -6,19 +6,19 @@ Jason Alvarez
 
 Responsible for Database creation, Paypal integration and Integration of all pages
 
-Davy Chi
+**Davy Chi**
 
 Responsible for the Menu Page and Nav Bar
 
-Carlos Ramirez
+**Carlos Ramirez
 
 Responsible for the Contact Us page and About Us page
 
-Alvin Yu
+**Alvin Yu
 
 Responsible for Login Page and Create Account Page
 
-Alberto Gonzalez
+**Alberto Gonzalez
 
 Responsible for View Cart Page and Jira setup
 
